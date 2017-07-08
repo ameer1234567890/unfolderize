@@ -1,3 +1,3 @@
 @ECHO OFF
-@FOR /R . %%G IN (*.mp3) DO MOVE "%%G" ..
+@FOR /R . %%F IN (*) DO MOVE "%%F" .
 @PAUSE
